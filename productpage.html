@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page produit</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="font.css">
+</head>
+<body>
+
+	<div class="header">
+
+		<a href="mainpage.html">
+			<img src="Logo.png">
+		</a>
+		
+		<div class="searchbar">
+			<form action="search.php" method="post">
+				<input type="text" name="search" placeholder="Search for a product, a brand, ...">
+				<input type="submit" value="Search">
+			</form>
+		</div>
+		
+		<div class="connexion">
+			<a href="connect.html">
+				Connexion
+			</a>
+		</div>
+
+		<div class="panier">
+			<a href="basket.html">
+				Basket
+			</a>
+		</div>
+	
+	</div>
+
+	<br><br>
+
+	<div id="line1" class="line">
+
+	</div>
+
+	<br><br><br><br><br>
+
+	<br><br><br>
+
+	<table id="pageproduit">
+		<tr>
+			<th style="width: 75%">
+				<img src="A7.jpg" alt="iphone7" height="55%" width="35%" align="left">
+				<p style="font-size: 180%;position: absolute;top:38%;left: 30%">
+					Apple Iphone 7 (4G+) 128 Go Noir,
+				</p>
+				<br><br>
+				<p style="position: absolute; left: 30%;" align="left">
+					4.7" HD Screen - Apple A10 Quad Core 2.3 GHz - 2 Go DDR4 - 128 Go <br> Capteur Photo 12 Mpx - iOS 10
+				</p>
+				<br><br><br><br><br><br>
+				<img src="apple72.jpg" style="border:solid 1px black; position: absolute; left: 30%;" alt="iphone72" height="15%" width="9%" align="left">
+			</th>
+			<th style="width: 25%">
+				<p style="font-size: 200%; position: absolute; top: 38% ; left: 85%; " align="MIDDLE">
+					900$
+				</p>
+				<form action="basket.html" method="post">
+					<input type="image" src="addcart.png" style="width: 30%;" align="MIDDLE" border="0" alt="Submit" />
+				</form>
+			</th>
+		</tr>
+	</table>
+	
+
+</body>
+</html>

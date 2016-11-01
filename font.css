@@ -1,0 +1,189 @@
+body{
+	height:100%;
+    min-height:100%;
+    width:100% min-width:100%;
+}
+
+.searchbar input[type="text"]{
+	position: absolute;
+	width: 30%; 
+	height: 5%; 
+	left: 35%;
+	top: 5%;
+}
+
+.searchbar input[type="submit"]{
+	position: absolute;
+	top: 6%;
+	left: 67%;
+}
+
+.connexion {
+	position:absolute;
+	top: 6%;
+	left: 77%;
+	text-decoration: underline;
+}
+
+.panier {
+	position: absolute;
+	top: 6%;
+	left: 87%;
+	text-decoration: underline;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 100%;
+}
+
+.line{
+	position: absolute;
+	background-color: rgb(163, 205, 254);
+	width: 100%;
+   	height: 7%;
+}
+
+a:link
+{
+	color: rgb(163, 205, 254);
+}
+
+a:visited
+{
+	color: rgb(163, 205, 254);
+}
+
+a:hover {
+	color:black;
+}
+
+a:active
+{
+	color: black;
+}
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	padding: 15px;
+	text-align: center;
+	border: 1px solid #ddd;
+    width: 20%;
+}
+
+#tableau:hover{
+	background-color: #f5f5f5;
+}
+
+.connection {
+	position: absolute;
+	width: 30%; 
+	height: 5%; 
+	margin-left: 15%;
+}
+
+.connection input[type="submit"]{
+	position: absolute;
+	left:77%;
+}
+
+.register {
+	position: absolute;
+	width: 30%; 
+	height: 5%; 
+	margin-left: 55%;
+}
+
+.register input[type="submit"]{
+	position: absolute;
+	top:590%;
+	left: 77%;
+}
+
+#pageproduit{
+	border-collapse: collapse;
+	width: 100%;
+	padding: 15px;
+	text-align: center;
+	border: 1px solid #ddd;
+    height: 600%;
+}
+
+#pageproduit input[type="submit"]{
+	position: absolute;
+	top: 58%;
+	left: 84%;
+}
+
+#vflash {
+	border-collapse: collapse;
+	width: 60%;
+}
+
+#menu {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+}
+
+#menu ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+}
+
+#menu li {
+   background-color: rgb(163, 205, 254); 
+   background-image:-webkit-linear-gradient(rgb(163, 205, 254));
+   background-image: linear-gradient(rgb(163, 205, 254));
+   border-radius: 6px;
+   margin-bottom:2px;
+   border:solid 1px black;
+}
+
+#menu li li {
+   max-height:0;
+   overflow: hidden;
+   transition: all .5s;
+   border-radius:0;
+   background: #444;
+   box-shadow: none;
+   border:none;
+   margin:0;
+}
+
+#menu a {
+  display:block;
+  text-decoration: none;
+  color: black;
+  padding: 8px 0;
+  font-family: verdana;
+  font-size:1.2em;
+}
+
+#menu ul li a, #menu li:hover li a {
+  font-size:1em
+}
+
+#menu li:hover {
+   background: rgb(163, 205, 254);
+}
+
+#menu li li:hover {
+   background: rgb(163, 205, 254);
+}
+
+#menu ul li:last-child {
+   border-radius: 0 0 6px 6px;
+   border:none;
+}
+
+#menu li:hover li {
+  max-height: 15em;
+}
